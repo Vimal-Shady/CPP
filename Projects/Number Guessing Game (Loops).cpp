@@ -7,10 +7,12 @@ int main()
     std::cout<<"__________Welcome To Number Guessing Game__________"<<std::endl;
 
     //Getting Input From the User
-    std::cout<<"Shall We Start The Game Y/N : ";
-    std::cin>>cont;
-    std::cout<<"Enter Your Name: ";
-    std::cin>>name;
+	std::cout<<"Hi Player!"<<std::endl;
+	std::cout<<"Your goal is to guess the number which is randomly chosen from 1 to 100"<<std::endl;
+    	std::cout<<"Shall We Start The Game Y/N : ";
+    	std::cin>>cont;
+    	std::cout<<"Enter Your Name: ";
+    	std::cin>>name;
 
     while(value<=100){
         //using while loop for game continuation
